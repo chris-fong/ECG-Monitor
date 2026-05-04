@@ -12,7 +12,8 @@ An Instrumentation Amplifier (INA) is implemented at the front end to remove com
 * **Function:** Provides high input impedance and extracts the differential voltage between the two arm electrodes ($V_{IN}^+$ and $V_{IN}^-$).
 
 
-[Image of an instrumentation amplifier schematic]
+<img width="1677" height="740" alt="Lab4_active_filter_Manual_2024-4-INA" src="https://github.com/user-attachments/assets/c9220af4-be3c-4670-88aa-a325a3ab1e4f" />
+
 
 
 ### 2. Active High-Pass Filter
@@ -29,6 +30,8 @@ An Instrumentation Amplifier (INA) is implemented at the front end to remove com
 ### 4. Biquad Band-Pass Filter
 * **Band-pass Frequency:** 5 kHz (with a $\pm 2\%$ variation).
 * **Quality Factor:** $Q \ge 8$.
+
+<img width="1748" height="500" alt="Lab4_active_filter_Manual_2024-4-Filters" src="https://github.com/user-attachments/assets/79a87cc4-a1f8-4bd4-a4cd-d4c07d0ebc2e" />
 
 ---
 
@@ -188,15 +191,16 @@ Using the oscilloscope capture of the live ECG, the heart rate was calculated ba
 
 ---
 
-## Results (Images) & Hardware Troubleshooting
+## Results & Hardware Troubleshooting
 
 ### Live ECG Capture
 
-*(Placeholder: Upload the photo showing the periodic ECG waveform on the Tektronix oscilloscope.)*
+<img width="2272" height="1552" alt="20251205_160750" src="https://github.com/user-attachments/assets/59a338fa-a6b3-46e0-ab9f-a3cb00f6f949" />
 
 ### Experimental Setup
 
-*(Placeholder: Upload the photo of the wet electrodes attached to the body.)*
+<img width="2552" height="1740" alt="20251205_160814" src="https://github.com/user-attachments/assets/a59091b4-8a38-472e-b139-f4e1e9d258cb" />
+<img width="3000" height="4000" alt="20251205_160806" src="https://github.com/user-attachments/assets/f486d2b2-baf9-4713-967e-80e2a5c00827" />
 
 ### Hardware Troubleshooting & Observations
 Transitioning from theoretical models to a physical breadboard introduced several real-world challenges that required troubleshooting:
